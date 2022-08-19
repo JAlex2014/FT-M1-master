@@ -24,7 +24,6 @@ function nFactorial(n) {
   }
 }
 
-
 function nFibonacci(n) {
 }
 
