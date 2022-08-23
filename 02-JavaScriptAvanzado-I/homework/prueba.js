@@ -142,3 +142,38 @@ console.log(contador1());
 console.log(contador1());
 console.log(contador1());
 console.log(contador1());
+
+/*
+
+function contarOvejas(ovejas) {
+   // aquí tu magia
+   var ovejasfiltradas = [];
+   for(let j = 0; j < ovejas.length; j++){
+     if(ovejas[j].color === 'rojo'){
+       for(let i = 0; i < ovejas[j].name.length; i++){
+         if(ovejas[j].name[i].toUpperCase()==="N"){ 
+           for(let z = 0; z < ovejas[j].name.length; z++){
+             if(ovejas[j].name[z].toUpperCase()==="A"){
+             ovejasfiltradas.push(ovejas[j]);
+             z = ovejas[j].name.length;
+             }
+           }
+         } 
+       }
+     }
+   } 
+   return ovejasfiltradas;
+ }
+
+ const ovejas = [
+   { name: 'Noa', color: 'azul' },
+   { name: 'Euge', color: 'rojo' },
+   { name: 'Navidad', color: 'rojo' },
+   { name: 'Ki Na Ma', color: 'rojo'},
+   { name: 'AAAAAaaaaa', color: 'rojo' },
+   { name: 'Nnnnnnnn', color: 'rojo'}
+ ]
+
+ const ovejasFiltradas = contarOvejas(ovejas)
+
+console.log(ovejasFiltradas);*/
