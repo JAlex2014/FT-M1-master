@@ -33,7 +33,7 @@ else if (n===1){
   return 1;
   }
 else{
-    return nFibonacci(n-1) + nFibonacci(n-2);
+  return nFibonacci(n-1) + nFibonacci(n-2);
   }
 }
 //console.log(nFibonacci(7))
@@ -73,7 +73,6 @@ Queue.prototype.size = function(){
 
 //const micola = new Queue();
 //micola.enqueue(10);
-//console.log(micola);
 //micola.enqueue(15);
 //console.log(micola);
 // No modifiquen nada debajo de esta linea
